@@ -171,7 +171,6 @@ class TicTacToe {
 			n++ ;
 		}
 		
-		cout << "No one wins!!\n" ;
 	}
 	
 } ;
