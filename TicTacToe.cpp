@@ -128,6 +128,7 @@ class TicTacToe {
 	
 	// Game between 2 Human
 	void play() {
+		system("cls") ;
 		dispayinfo() ;
 		
 		cout << "Lets begin!!\n" ;
@@ -139,6 +140,7 @@ class TicTacToe {
 		while(1) {
 			cout << "Input your Action Position 0-8: " ;
 			int t ; cin >> t ;
+			system("cls") ;
 			
 			int i, j ;
 			xy(i, j, t) ;
@@ -153,6 +155,7 @@ class TicTacToe {
 				else cout << "Position is preoccupied, try again!! \n" ;
 			}
 			
+			dispayinfo() ;
 			printgrid() ;
 			check() ;
 			
